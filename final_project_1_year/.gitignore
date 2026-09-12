@@ -1,0 +1,10 @@
+data/*.csv
+data/*.zip
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+.python-version
+catboost_info/
+notebooks/catboost_info/
