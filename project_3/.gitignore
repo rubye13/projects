@@ -1,0 +1,7 @@
+.venv/
+.ipynb_checkpoints/
+data/sf-booking/
+data/hotels.csv
+data/hotels_train.csv
+data/hotels_test.csv
+data/submission.csv
