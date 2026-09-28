@@ -1,0 +1,26 @@
+модель,выборка,"P@3, %","P@3 у тёплых, %","покрытие покупок, %",параметры
+популярное,valid,1.439645625692137,2.083333333333333,2.6,
+свежесть,valid,3.0454042081949058,10.714285714285714,5.5,
+"корзина, потом свежесть",valid,3.211517165005537,11.607142857142858,5.800000000000001,
+ALS,valid,1.5503875968992247,2.6785714285714284,2.8000000000000003,"min_n=1, factors=32, alpha=10.0"
+ALS,valid,1.6611295681063125,3.2738095238095233,3.0,"min_n=1, factors=64, alpha=1.0"
+ALS,valid,2.048726467331118,5.357142857142856,3.6999999999999997,"min_n=1, factors=64, alpha=10.0"
+ALS,valid,2.104097452934662,5.654761904761903,3.8,"min_n=2, factors=64, alpha=10.0"
+ALS,valid,1.495016611295681,2.380952380952381,2.7,"min_n=5, factors=64, alpha=10.0"
+item-based,valid,1.3289036544850499,1.488095238095238,2.4,variant=only_new
+item-based,valid,3.322259136212625,12.20238095238095,6.0,"variant=history_and_similar, own_weight=5.0"
+LightFM,valid,2.4916943521594686,7.738095238095237,4.5,"loss=warp, components=64, epochs=30, features_weight=0"
+LightFM + свойства,valid,1.7718715393133997,3.8690476190476186,3.2,"loss=warp, components=64, epochs=30, features_weight=0.3"
+LightFM,valid,2.6578073089700998,8.630952380952381,4.8,"loss=warp, components=64, epochs=60, features_weight=0"
+CatBoost,valid,3.4330011074197113,12.797619047619047,6.2,"target=target, depth=4, lr=0.03, iterations=185"
+CatBoost,valid,3.3776301218161677,12.5,6.1,"target=target, depth=6, lr=0.03, iterations=426"
+CatBoost,valid,3.4330011074197113,12.797619047619047,6.2,"target=target, depth=8, lr=0.03, iterations=135"
+CatBoost,valid,3.5437430786267994,13.392857142857142,6.4,"target=target_cart, depth=4, lr=0.03, iterations=590"
+CatBoost,valid,3.3776301218161677,12.5,6.1,"target=target_cart, depth=6, lr=0.03, iterations=168"
+CatBoost,valid,3.488372093023256,13.095238095238097,6.3,"target=target_cart, depth=8, lr=0.03, iterations=150"
+популярное,test,1.8518518518518516,3.492063492063492,3.187721369539551,"event=transaction, days=56"
+"корзина, потом свежесть",test,4.320987654320987,14.920634920634921,7.43801652892562,
+ALS,test,1.8518518518518516,3.492063492063492,3.187721369539551,"min_n=2, factors=64, alpha=10.0"
+item-based,test,4.458161865569273,15.555555555555555,7.674144037780402,"variant=history_and_similar, own_weight=5.0"
+LightFM,test,3.9780521262002737,13.33333333333333,6.8476977567886665,"loss=warp, components=64, epochs=60"
+CatBoost,test,4.595336076817558,16.19047619047619,7.910271546635183,"target=target_cart, depth=4, learning_rate=0.03, iterations=590"

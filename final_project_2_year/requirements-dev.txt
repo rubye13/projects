@@ -1,0 +1,11 @@
+# Ноутбуки и сборка модели. Поверх сервисных зависимостей
+-r requirements.txt
+scikit-learn==1.9.1
+scipy==1.18.1
+matplotlib==3.11.2
+seaborn==0.13.2
+implicit==0.7.3
+threadpoolctl==3.7.0
+ipykernel==7.3.0
+# lightfm 1.17 с PyPI не собирается под Python 3.12, ставлю из исходников,
+# см. раздел «Окружение» в README

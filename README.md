@@ -1,7 +1,10 @@
 # Проекты с курса "Профессия Data Scientist от Skill Factory"
 
+Итоговый проект 2 года: рекомендации трёх товаров на главной интернет-магазина, сервис Flask в Docker. Папка [`final_project_2_year`](https://github.com/rubye13/projects/tree/master/final_project_2_year).
+
 Итоговый проект 1 года: прогноз цены жилья по объявлениям США и сервис Flask. Папка [`final_project_1_year`](https://github.com/rubye13/projects/tree/master/final_project_1_year).
 
++ [Итоговый проект 2 года. Рекомендации на главной (RetailRocket)](https://github.com/rubye13/projects/tree/master/final_project_2_year)
 + [Итоговый проект 1 года. Прогноз цены жилья (бриф 1)](https://github.com/rubye13/projects/tree/master/final_project_1_year)
 + [Проект 0. Угадай число.](https://github.com/rubye13/projects/tree/master/project_0)
 + [Проект 1. Анализ вакансий из HeadHunter](https://github.com/rubye13/projects/tree/master/project_1)

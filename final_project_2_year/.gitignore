@@ -1,0 +1,10 @@
+# Данные RetailRocket (~1 ГБ), артефакты модели и архив образа в git не кладу
+data/
+models/
+dist/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+catboost_info/
+.DS_Store

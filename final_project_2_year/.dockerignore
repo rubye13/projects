@@ -1,0 +1,10 @@
+# В образ идут только сервис, общий код и готовые артефакты модели
+*
+!requirements.txt
+!recsys/
+!service/
+!models/ranker.cbm
+!models/candidates.parquet
+!models/meta.json
+**/__pycache__
+**/*.pyc
